@@ -1,0 +1,16 @@
+services:
+  vogcodechallenge.api:
+    build:
+      context: C:\TestProject\Github_Projects\18thDEC\VogCodeChallenge\Vijayanagarajan_vog_backend_codechallenge
+      dockerfile: VogCodeChallenge.API\Dockerfile
+    environment:
+      ASPNETCORE_ENVIRONMENT: Development
+      ASPNETCORE_URLS: https://+:443;http://+:80
+    image: vogcodechallengeapi
+    ports:
+    - target: 80
+    - target: 443
+    volumes:
+    - C:\Users\AlerUser\AppData\Roaming\ASP.NET\Https:C:\Users\ContainerUser\AppData\Roaming\ASP.NET\Https:ro
+    - C:\Users\AlerUser\AppData\Roaming\Microsoft\UserSecrets:C:\Users\ContainerUser\AppData\Roaming\Microsoft\UserSecrets:ro
+version: '3.4'

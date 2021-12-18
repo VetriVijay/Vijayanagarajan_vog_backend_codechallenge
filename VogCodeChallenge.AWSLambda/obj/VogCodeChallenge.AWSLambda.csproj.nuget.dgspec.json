@@ -1,0 +1,142 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\TestProject\\Github_Projects\\VogCodeChallenge\\VogCodeChallenge\\Vijayanagarajan_vog_backend_codechallenge\\VogCodeChallenge.AWSLambda\\VogCodeChallenge.AWSLambda.csproj": {}
+  },
+  "projects": {
+    "C:\\TestProject\\Github_Projects\\VogCodeChallenge\\VogCodeChallenge\\Vijayanagarajan_vog_backend_codechallenge\\VogCodeChallenge.API.Model\\VogCodeChallenge.API.Model.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\TestProject\\Github_Projects\\VogCodeChallenge\\VogCodeChallenge\\Vijayanagarajan_vog_backend_codechallenge\\VogCodeChallenge.API.Model\\VogCodeChallenge.API.Model.csproj",
+        "projectName": "VogCodeChallenge.API.Model",
+        "projectPath": "C:\\TestProject\\Github_Projects\\VogCodeChallenge\\VogCodeChallenge\\Vijayanagarajan_vog_backend_codechallenge\\VogCodeChallenge.API.Model\\VogCodeChallenge.API.Model.csproj",
+        "packagesPath": "C:\\Users\\AlerUser\\.nuget\\packages\\",
+        "outputPath": "C:\\TestProject\\Github_Projects\\VogCodeChallenge\\VogCodeChallenge\\Vijayanagarajan_vog_backend_codechallenge\\VogCodeChallenge.API.Model\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\AlerUser\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\checkouts\\alerton.ascent.compass.syslib\\Source\\CbtCoreLib\\nuget": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://artifactory-na.honeywell.com/artifactory/api/nuget/compass-nuget-unstable-local": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\TestProject\\Github_Projects\\VogCodeChallenge\\VogCodeChallenge\\Vijayanagarajan_vog_backend_codechallenge\\VogCodeChallenge.AWSLambda\\VogCodeChallenge.AWSLambda.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\TestProject\\Github_Projects\\VogCodeChallenge\\VogCodeChallenge\\Vijayanagarajan_vog_backend_codechallenge\\VogCodeChallenge.AWSLambda\\VogCodeChallenge.AWSLambda.csproj",
+        "projectName": "VogCodeChallenge.AWSLambda",
+        "projectPath": "C:\\TestProject\\Github_Projects\\VogCodeChallenge\\VogCodeChallenge\\Vijayanagarajan_vog_backend_codechallenge\\VogCodeChallenge.AWSLambda\\VogCodeChallenge.AWSLambda.csproj",
+        "packagesPath": "C:\\Users\\AlerUser\\.nuget\\packages\\",
+        "outputPath": "C:\\TestProject\\Github_Projects\\VogCodeChallenge\\VogCodeChallenge\\Vijayanagarajan_vog_backend_codechallenge\\VogCodeChallenge.AWSLambda\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\AlerUser\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\checkouts\\alerton.ascent.compass.syslib\\Source\\CbtCoreLib\\nuget": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://artifactory-na.honeywell.com/artifactory/api/nuget/compass-nuget-unstable-local": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "C:\\TestProject\\Github_Projects\\VogCodeChallenge\\VogCodeChallenge\\Vijayanagarajan_vog_backend_codechallenge\\VogCodeChallenge.API.Model\\VogCodeChallenge.API.Model.csproj": {
+                "projectPath": "C:\\TestProject\\Github_Projects\\VogCodeChallenge\\VogCodeChallenge\\Vijayanagarajan_vog_backend_codechallenge\\VogCodeChallenge.API.Model\\VogCodeChallenge.API.Model.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "AWSSDK.DynamoDBv2": {
+              "target": "Package",
+              "version": "[3.7.2.2, )"
+            },
+            "AWSSDK.Lambda": {
+              "target": "Package",
+              "version": "[3.7.8.4, )"
+            },
+            "Amazon.Lambda.Core": {
+              "target": "Package",
+              "version": "[2.1.0, )"
+            },
+            "Amazon.Lambda.Serialization.SystemTextJson": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

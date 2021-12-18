@@ -1,0 +1,19 @@
+{
+  "version": 2,
+  "dgSpecHash": "IxM8/9QbXSDloC7IPynZ3vSJOkYjh/+XazNShvewypNNPt/ohvszY2KX5LxSFuyBAxrGGO90cP2nItDxDUj/dw==",
+  "success": true,
+  "projectFilePath": "C:\\TestProject\\Github_Projects\\18thDEC\\VogCodeChallenge\\Vijayanagarajan_vog_backend_codechallenge\\VogCodeChallenge.API\\VogCodeChallenge.API.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\AlerUser\\.nuget\\packages\\agileobjects.agilemapper\\1.8.0\\agileobjects.agilemapper.1.8.0.nupkg.sha512",
+    "C:\\Users\\AlerUser\\.nuget\\packages\\agileobjects.netstandardpolyfills\\1.5.0\\agileobjects.netstandardpolyfills.1.5.0.nupkg.sha512",
+    "C:\\Users\\AlerUser\\.nuget\\packages\\agileobjects.readableexpressions\\2.6.0\\agileobjects.readableexpressions.2.6.0.nupkg.sha512",
+    "C:\\Users\\AlerUser\\.nuget\\packages\\microsoft.extensions.apidescription.server\\3.0.0\\microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
+    "C:\\Users\\AlerUser\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
+    "C:\\Users\\AlerUser\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.10.13\\microsoft.visualstudio.azure.containers.tools.targets.1.10.13.nupkg.sha512",
+    "C:\\Users\\AlerUser\\.nuget\\packages\\swashbuckle.aspnetcore\\6.2.3\\swashbuckle.aspnetcore.6.2.3.nupkg.sha512",
+    "C:\\Users\\AlerUser\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.2.3\\swashbuckle.aspnetcore.swagger.6.2.3.nupkg.sha512",
+    "C:\\Users\\AlerUser\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.2.3\\swashbuckle.aspnetcore.swaggergen.6.2.3.nupkg.sha512",
+    "C:\\Users\\AlerUser\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\6.2.3\\swashbuckle.aspnetcore.swaggerui.6.2.3.nupkg.sha512"
+  ],
+  "logs": []
+}

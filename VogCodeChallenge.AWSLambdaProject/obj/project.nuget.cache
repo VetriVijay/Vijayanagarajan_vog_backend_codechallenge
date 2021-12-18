@@ -1,0 +1,14 @@
+{
+  "version": 2,
+  "dgSpecHash": "DcrHiqXVSOCX+W1fQlMG9Hl2BdTGs/4s2Zo0kFwJp3EPvlLuLE0Gs+T0ttM2Gte/s+4WoPrBfD8MfoPooiVPJA==",
+  "success": true,
+  "projectFilePath": "C:\\TestProject\\Github_Projects\\18thDEC\\VogCodeChallenge\\Vijayanagarajan_vog_backend_codechallenge\\VogCodeChallenge.AWSLambdaProject\\VogCodeChallenge.AWSLambdaProject.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\AlerUser\\.nuget\\packages\\amazon.lambda.core\\2.1.0\\amazon.lambda.core.2.1.0.nupkg.sha512",
+    "C:\\Users\\AlerUser\\.nuget\\packages\\amazon.lambda.dynamodbevents\\2.1.0\\amazon.lambda.dynamodbevents.2.1.0.nupkg.sha512",
+    "C:\\Users\\AlerUser\\.nuget\\packages\\amazon.lambda.serialization.systemtextjson\\2.2.0\\amazon.lambda.serialization.systemtextjson.2.2.0.nupkg.sha512",
+    "C:\\Users\\AlerUser\\.nuget\\packages\\awssdk.core\\3.7.3.33\\awssdk.core.3.7.3.33.nupkg.sha512",
+    "C:\\Users\\AlerUser\\.nuget\\packages\\awssdk.dynamodbv2\\3.7.0.94\\awssdk.dynamodbv2.3.7.0.94.nupkg.sha512"
+  ],
+  "logs": []
+}

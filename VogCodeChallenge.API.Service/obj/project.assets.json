@@ -1,0 +1,228 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "AgileObjects.AgileMapper/1.8.0": {
+        "type": "package",
+        "dependencies": {
+          "AgileObjects.ReadableExpressions": "2.6.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/AgileObjects.AgileMapper.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/AgileObjects.AgileMapper.dll": {}
+        }
+      },
+      "AgileObjects.NetStandardPolyfills/1.5.0": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/AgileObjects.NetStandardPolyfills.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/AgileObjects.NetStandardPolyfills.dll": {}
+        }
+      },
+      "AgileObjects.ReadableExpressions/2.6.0": {
+        "type": "package",
+        "dependencies": {
+          "AgileObjects.NetStandardPolyfills": "1.5.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/AgileObjects.ReadableExpressions.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/AgileObjects.ReadableExpressions.dll": {}
+        }
+      },
+      "VogCodeChallenge.API.DataModel/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "compile": {
+          "bin/placeholder/VogCodeChallenge.API.DataModel.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/VogCodeChallenge.API.DataModel.dll": {}
+        }
+      },
+      "VogCodeChallenge.API.IService/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "dependencies": {
+          "VogCodeChallenge.API.DataModel": "1.0.0",
+          "VogCodeChallenge.API.Model": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/VogCodeChallenge.API.IService.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/VogCodeChallenge.API.IService.dll": {}
+        }
+      },
+      "VogCodeChallenge.API.Model/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "compile": {
+          "bin/placeholder/VogCodeChallenge.API.Model.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/VogCodeChallenge.API.Model.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "AgileObjects.AgileMapper/1.8.0": {
+      "sha512": "5+Y/xYZkZX8MELd0PljRrCMGrPCE3j8N0tHQDpAhAmhlSISbohc7fb8YreXQUkx0isSm1+5NnmHo2ARCahKxPA==",
+      "type": "package",
+      "path": "agileobjects.agilemapper/1.8.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "agileobjects.agilemapper.1.8.0.nupkg.sha512",
+        "agileobjects.agilemapper.nuspec",
+        "lib/net35/AgileObjects.AgileMapper.dll",
+        "lib/net35/AgileObjects.AgileMapper.xml",
+        "lib/net40/AgileObjects.AgileMapper.dll",
+        "lib/net40/AgileObjects.AgileMapper.xml",
+        "lib/netstandard1.0/AgileObjects.AgileMapper.dll",
+        "lib/netstandard1.0/AgileObjects.AgileMapper.xml",
+        "lib/netstandard1.3/AgileObjects.AgileMapper.dll",
+        "lib/netstandard1.3/AgileObjects.AgileMapper.xml",
+        "lib/netstandard2.0/AgileObjects.AgileMapper.dll",
+        "lib/netstandard2.0/AgileObjects.AgileMapper.xml"
+      ]
+    },
+    "AgileObjects.NetStandardPolyfills/1.5.0": {
+      "sha512": "+eWxs3HINdHPZpXALiPIHilHnsuKCj1nxoyZlgZSxgv5OVQPwt7IWRYtOx+4/6x0qO8cjXQuLalrxouT42EZzQ==",
+      "type": "package",
+      "path": "agileobjects.netstandardpolyfills/1.5.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "agileobjects.netstandardpolyfills.1.5.0.nupkg.sha512",
+        "agileobjects.netstandardpolyfills.nuspec",
+        "lib/net35/AgileObjects.NetStandardPolyfills.dll",
+        "lib/net35/AgileObjects.NetStandardPolyfills.xml",
+        "lib/net40/AgileObjects.NetStandardPolyfills.dll",
+        "lib/net40/AgileObjects.NetStandardPolyfills.xml",
+        "lib/netstandard1.0/AgileObjects.NetStandardPolyfills.dll",
+        "lib/netstandard1.0/AgileObjects.NetStandardPolyfills.xml",
+        "lib/netstandard2.0/AgileObjects.NetStandardPolyfills.dll",
+        "lib/netstandard2.0/AgileObjects.NetStandardPolyfills.xml"
+      ]
+    },
+    "AgileObjects.ReadableExpressions/2.6.0": {
+      "sha512": "GfyVg7MRALnM182yHN86yMDd20rOAwUmjkcrJoPnIlPtSwunUSOiXJ7ZotyhtWTNno4HUfa6q85ZSwwOgfDdYg==",
+      "type": "package",
+      "path": "agileobjects.readableexpressions/2.6.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "agileobjects.readableexpressions.2.6.0.nupkg.sha512",
+        "agileobjects.readableexpressions.nuspec",
+        "lib/net35/AgileObjects.ReadableExpressions.dll",
+        "lib/net35/AgileObjects.ReadableExpressions.xml",
+        "lib/net40/AgileObjects.ReadableExpressions.dll",
+        "lib/net40/AgileObjects.ReadableExpressions.xml",
+        "lib/netstandard1.0/AgileObjects.ReadableExpressions.dll",
+        "lib/netstandard1.0/AgileObjects.ReadableExpressions.xml",
+        "lib/netstandard2.0/AgileObjects.ReadableExpressions.dll",
+        "lib/netstandard2.0/AgileObjects.ReadableExpressions.xml"
+      ]
+    },
+    "VogCodeChallenge.API.DataModel/1.0.0": {
+      "type": "project",
+      "path": "../VogCodeChallenge.API.DataModel/VogCodeChallenge.API.DataModel.csproj",
+      "msbuildProject": "../VogCodeChallenge.API.DataModel/VogCodeChallenge.API.DataModel.csproj"
+    },
+    "VogCodeChallenge.API.IService/1.0.0": {
+      "type": "project",
+      "path": "../VogCodeChallenge.API.IService/VogCodeChallenge.API.IService.csproj",
+      "msbuildProject": "../VogCodeChallenge.API.IService/VogCodeChallenge.API.IService.csproj"
+    },
+    "VogCodeChallenge.API.Model/1.0.0": {
+      "type": "project",
+      "path": "../VogCodeChallenge.API.Model/VogCodeChallenge.API.Model.csproj",
+      "msbuildProject": "../VogCodeChallenge.API.Model/VogCodeChallenge.API.Model.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    ".NETCoreApp,Version=v3.1": [
+      "AgileObjects.AgileMapper >= 1.8.0",
+      "VogCodeChallenge.API.IService >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\AlerUser\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\TestProject\\Github_Projects\\18thDEC\\VogCodeChallenge\\Vijayanagarajan_vog_backend_codechallenge\\VogCodeChallenge.API.Service\\VogCodeChallenge.API.Service.csproj",
+      "projectName": "VogCodeChallenge.API.Service",
+      "projectPath": "C:\\TestProject\\Github_Projects\\18thDEC\\VogCodeChallenge\\Vijayanagarajan_vog_backend_codechallenge\\VogCodeChallenge.API.Service\\VogCodeChallenge.API.Service.csproj",
+      "packagesPath": "C:\\Users\\AlerUser\\.nuget\\packages\\",
+      "outputPath": "C:\\TestProject\\Github_Projects\\18thDEC\\VogCodeChallenge\\Vijayanagarajan_vog_backend_codechallenge\\VogCodeChallenge.API.Service\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\AlerUser\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "netcoreapp3.1"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\checkouts\\alerton.ascent.compass.syslib\\Source\\CbtCoreLib\\nuget": {},
+        "https://api.nuget.org/v3/index.json": {},
+        "https://artifactory-na.honeywell.com/artifactory/api/nuget/compass-nuget-unstable-local": {}
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "projectReferences": {
+            "C:\\TestProject\\Github_Projects\\18thDEC\\VogCodeChallenge\\Vijayanagarajan_vog_backend_codechallenge\\VogCodeChallenge.API.IService\\VogCodeChallenge.API.IService.csproj": {
+              "projectPath": "C:\\TestProject\\Github_Projects\\18thDEC\\VogCodeChallenge\\Vijayanagarajan_vog_backend_codechallenge\\VogCodeChallenge.API.IService\\VogCodeChallenge.API.IService.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "netcoreapp3.1": {
+        "targetAlias": "netcoreapp3.1",
+        "dependencies": {
+          "AgileObjects.AgileMapper": {
+            "target": "Package",
+            "version": "[1.8.0, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.201\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

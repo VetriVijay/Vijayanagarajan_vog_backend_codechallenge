@@ -1,0 +1,23 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <UserSecretsId>bb8e27f0-5279-4be4-bd9d-358c964caafe</UserSecretsId>
+    <DockerDefaultTargetOS>Windows</DockerDefaultTargetOS>
+    <DockerComposeProjectPath>..\docker-compose.dcproj</DockerComposeProjectPath>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.VisualStudio.Azure.Containers.Tools.Targets" Version="1.10.13" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.2.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\VogCodeChallenge.API.DataAccess\VogCodeChallenge.API.DataAccess.csproj" />
+    <ProjectReference Include="..\VogCodeChallenge.API.IService\VogCodeChallenge.API.IService.csproj" />
+    <ProjectReference Include="..\VogCodeChallenge.API.Model\VogCodeChallenge.API.Model.csproj" />
+    <ProjectReference Include="..\VogCodeChallenge.API.Service\VogCodeChallenge.API.Service.csproj" />
+  </ItemGroup>
+
+
+</Project>
